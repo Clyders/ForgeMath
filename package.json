@@ -1,0 +1,47 @@
+{
+  "name": "@tryforge/forge.math",
+  "version": "1.1.0",
+  "description": "ForgeMath is a comprehensive library of math functions, covering everything from basic arithmetic to advanced calculus. Perfect for developers needing a reliable toolkit for efficient and accurate mathematical computations.",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "docgen": "tsc && typedoc ./src --out ./docs && node dist/docgen",
+    "eslint": "eslint ./src/**/* --fix",
+    "commit": "npm run docgen && node dist/commit",
+    "test": "tsc && node dist/__tests__/runner"
+  },
+  "keywords": [
+    "bdfd",
+    "aoi.js",
+    "aoi",
+    "dbd",
+    "dbd.ts",
+    "dbd.js",
+    "easy",
+    "fast",
+    "efficient",
+    "bdscript",
+    "tryforge",
+    "forgemath",
+    "discord",
+    "discord-api",
+    "discord-bot",
+    "api",
+    "bot"
+  ],
+  "author": "Aditya",
+  "contributors": [],
+  "license": "MIT",
+  "devDependencies": {
+    "typedoc": "^0.25.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@tryforge/forgescript": "github:tryforge/forgescript#dev",
+    "tsc": "^2.0.4"
+  },
+  "engines": {
+    "node": ">=16.11.0"
+  }
+}

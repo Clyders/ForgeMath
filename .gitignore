@@ -1,0 +1,10 @@
+node_modules
+*.db
+*.sqlite
+\.env
+act.exe
+PUBLISHING.md
+package-lock.json
+tsconfig.json
+.eslintrc.json
+docs
